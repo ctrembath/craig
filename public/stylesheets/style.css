@@ -1,3 +1,12 @@
 * {
 	text-align: center;
 }
+
+p.intro {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.section {
+	margin-top: 5rem;
+}

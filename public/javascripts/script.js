@@ -13,6 +13,12 @@ $(document).ready(function () {
 		$("div#lightbox").fadeOut();
 		return false;
 	});
+	
+	$(function (){
+		$('#seven').on('mouseenter', function() {
+			$('#videoSeven').get(0).play()
+		})
+	});
 
 //Starting new js code
 
