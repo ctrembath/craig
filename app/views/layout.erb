@@ -10,7 +10,8 @@
 
 	    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,500' rel='stylesheet' type='text/css'>
 	    <link rel="stylesheet" href="stylesheets/foundation.min.css" />
-	    <link rel="stylesheet" hred="stylesheets/style.css" />
+	    <link rel="stylesheet" href="stylesheets/style.css" />
+	    <link rel="stylesheet" href="stylesheets/jquery.fullPage.css" />
 	</head>
 
 	<body>
@@ -19,9 +20,15 @@
 
 		<script src="javascripts/jquery.js"></script>
 	    <script src="javascripts/foundation.js"></script>
+	    <script src="javascripts/jquery.fullPage.js"></script>
 	    <script src="javascripts/script.js"></script>
 	    <script>
+	      $(document).ready(function() {
+	          $('#fullpage').fullpage();
+		      });
+		      $(document).foundation();
 	      $(document).foundation();
+
 	   </script>
 
 	</body>
