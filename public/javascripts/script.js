@@ -13,12 +13,23 @@ $(document).ready(function () {
 		$("div#lightbox").fadeOut();
 		return false;
 	});
+
+	// Video Play + Pause
 	
 	$(function (){
 		$('#seven').on('mouseenter', function() {
-			$('#videoSeven').get(0).play()
+			$('#videoSeven').get(0).play();
 		})
 	});
+
+	$(function (){
+		$('#eight').on('mouseenter', function() {
+			$('.video7').each(function() {
+		    $(this).get(0).pause();
+			});
+		})
+	});
+
 
 //Starting new js code
 
