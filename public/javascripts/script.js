@@ -14,8 +14,37 @@ $(document).ready(function () {
 		return false;
 	});
 
+	
+
 	// Video Play + Pause
 	
+
+	$(function (){
+		$('#four').on('mouseenter', function() {
+			$('#videoFour').get(0).play();
+		})
+	});
+
+	$(function (){
+		$('#five').on('mouseenter', function() {
+			$('.video4').each(function() {
+		    $(this).get(0).pause();
+			});
+		})
+	});
+
+	$(function (){
+		$('#three').on('mouseenter', function() {
+			$('.video4').each(function() {
+		    $(this).get(0).pause();
+			});
+		})
+	});
+
+
+
+
+
 	$(function (){
 		$('#seven').on('mouseenter', function() {
 			$('#videoSeven').get(0).play();
@@ -24,6 +53,14 @@ $(document).ready(function () {
 
 	$(function (){
 		$('#eight').on('mouseenter', function() {
+			$('.video7').each(function() {
+		    $(this).get(0).pause();
+			});
+		})
+	});
+
+	$(function (){
+		$('#six').on('mouseenter', function() {
 			$('.video7').each(function() {
 		    $(this).get(0).pause();
 			});

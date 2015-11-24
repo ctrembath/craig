@@ -7,11 +7,21 @@ p.intro {
 	font-weight: 400;
 }
 
-.section {
+section {
 	margin-top: 5rem;
 }
 
-#one {
-	
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(tank.jpg) no-repeat;
+    background-size: cover; 
 }
-	
