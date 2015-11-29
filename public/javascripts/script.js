@@ -46,25 +46,30 @@ $(document).ready(function () {
 
 
 	$(function (){
-		$('#seven').on('mouseenter', function() {
-			$('#videoSeven').get(0).play();
-		})
-	});
-
-	$(function (){
 		$('#eight').on('mouseenter', function() {
-			$('.video7').each(function() {
+			$('#videoEight').get(0).play();
+		})
+	});
+
+	$(function (){
+		$('#nine').on('mouseenter', function() {
+			$('.video8').each(function() {
 		    $(this).get(0).pause();
 			});
 		})
 	});
 
 	$(function (){
-		$('#six').on('mouseenter', function() {
-			$('.video7').each(function() {
+		$('#seven').on('mouseenter', function() {
+			$('.video8').each(function() {
 		    $(this).get(0).pause();
 			});
 		})
+	});
+
+	var vid = document.getElementById("bgvid");
+	$('#three').on('mouseenter', function() {
+		vid.muted = true;
 	});
 
 
